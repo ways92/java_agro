@@ -36,7 +36,7 @@
                             <h5 class="card-title">{{ $barang->name }}</h5>
                             <p class="card-text">
                                 <Strong>Harga : </Strong>
-                                Rp. {{ number_format($barang->harga) }}
+                                Rp. {{ number_format($barang->harga) }} /kg
                                 <br>
                                 <Strong>Stok : </Strong>
                                 {{ $barang->stok }} Kg

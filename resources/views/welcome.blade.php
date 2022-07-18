@@ -118,11 +118,11 @@
 
         @yield('isi')
 
-        <section>
+        <section class="pt-5">
             <div class="row mt-5 mb-5">
                 <div class="col-md-7 text-center ">
-                    <h2 class="fw-bold">PT. JAVA AGRO GLOBALINDO</h2>
-                    <p class="fs-6">Kami juga terus mengupdate informasi mengenai perusahaan melalui media sosial,
+                    <h2 class="fw-bold mb-4">PT. JAVA AGRO GLOBALINDO</h2>
+                    <p class="fs-6 mb-5">Kami juga terus mengupdate informasi mengenai perusahaan melalui media sosial,
                         untuk
                         informasi
                         terbaru anda dapat mengikuti media sosial kami.</p>
@@ -141,17 +141,17 @@
                     <table class="ms-md-5 mt-3 fs-5">
                         <tr>
                             <td>Kantor</td>
-                            <td>:</td>
+                            <td class="ps-3 pe-3">:</td>
                             <td> Pasuruan - Jawa Timur</td>
                         </tr>
                         <tr>
                             <td>Telepon</td>
-                            <td>:</td>
+                            <td class="ps-3 pe-3">:</td>
                             <td> +62 812-1661-0559</td>
                         </tr>
                         <tr>
                             <td>Email</td>
-                            <td>:</td>
+                            <td class="ps-3 pe-3">:</td>
                             <td> ptjavaagroglobalindo@gmail.com</td>
                         </tr>
                     </table>
@@ -165,9 +165,9 @@
 
     <footer class="mt-5" style="height:140px; background-color: #111827">
         <div style="height:20px; background-color: #111827"></div>
-        <h3 class="text-white text-center">Java Agro Globalindo</h3>
+        <h3 class="text-white text-center">PT. Java Agro Globalindo</h3>
         <p class="text-white text-center mt-5">
-            Copyright ©{{ Date('Y') }} Java Agro Globalindo Inc
+            Copyright ©{{ Date('Y') }} Java Agro Globalindo
         </p>
     </footer>
 

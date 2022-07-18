@@ -14,8 +14,8 @@
                         <th>Nama Barang</th>
                         <th>Deskripsi</th>
                         <th>Gambar</th>
-                        <th>Stok</th>
-                        <th>Harga</th>
+                        <th>Stok (kg)</th>
+                        <th>Harga /kg</th>
                         <th>Aksi</th>
                     </tr>
                 </thead>

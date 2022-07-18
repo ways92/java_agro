@@ -48,7 +48,7 @@
                             <label for="">Gambar</label><br>
                             <input type="file" name="gambar">
                         </div>
-                        @error('image')
+                        @error('gambar')
                             <small class="text-danger">{{ $message }}</small>
                         @enderror
                     </div>

@@ -66,7 +66,7 @@
 
                                     @if (!empty($pesanan_detail))
                                         <tr>
-                                            <td colspan="4" class="text-right"><strong>Harga</strong></td>
+                                            <td colspan="5" class="text-right"><strong>Harga</strong></td>
                                             <td>
                                                 <strong>
                                                     Rp. {{ number_format($pesanan->jumlah_harga) }}
@@ -79,9 +79,6 @@
                                                     <i class="bi bi-bag-check-fill"></i>
                                                     Check Out
                                                 </a>
-                                            </td>
-                                            <td>
-
                                             </td>
                                         </tr>
                                     @endif

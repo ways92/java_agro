@@ -2,7 +2,7 @@
 
 @section('isi')
     <div class="container mt-5 mb-5">
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-md-4">
 
             @foreach ($barangs as $barang)
                 <div class="col mb-5">

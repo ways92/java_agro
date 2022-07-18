@@ -25,12 +25,12 @@
                                         <tr>
                                             <td>Stok</td>
                                             <td>:</td>
-                                            <td>{{ $barang->stok }}</td>
+                                            <td>{{ $barang->stok }} kg</td>
                                         </tr>
                                         <tr>
                                             <td>Harga</td>
                                             <td>:</td>
-                                            <td>Rp. {{ number_format($barang->harga) }}</td>
+                                            <td>Rp. {{ number_format($barang->harga) }} /kg</td>
                                         </tr>
                                         <tr>
                                             <td>Deskripsi</td>
